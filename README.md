@@ -15,3 +15,4 @@
 ## Notes
 - Task 2, 3, and 4 depend on the completion of Task 1.
 - Task 5 depends on the completion of Tasks 1, 2, 3, and 4.
+- Owner mainly focuses given tasks, but feel free to play with other test if you want.

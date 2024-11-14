@@ -3,8 +3,8 @@
 | Task Number | Task Description                                           | Owner(s)             | Start Date   | End Date     | Dependencies           |
 |-------------|------------------------------------------------------------|----------------------|--------------|--------------|------------------------|
 | 1           | Cleaning the data                                          | Harvey               | 10/22/2024   | 10/28/2024   | N/A                    |
-| 2           | Visualize speed contour diagram with SR_19 and US101 data <br> (You can write code and test using SR19 data first while Harvey is processing the US101 data) | Xinyang, Nolan       | 10/22/2024   | 11/04/2024   | Task 1                 |
-| 3           | Visualize fundamental diagram with SR_19 and US101 data <br> (You can write code and test using SR19 data first while Harvey is processing the US101 data)    | Xinyang, Nolan       | 10/22/2024   | 11/11/2024   | Task 1                 |
+| 2           | Visualize speed contour diagram with SR_19 and US101 data | Xinyang, Nolan       | 10/22/2024   | 11/04/2024   | Task 1                 |
+| 3           | Visualize fundamental diagram with SR_19 and US101 data    | Xinyang, Nolan       | 10/22/2024   | 11/11/2024   | Task 1                 |
 | 4           | Model optimization                                         | Harvey               | 11/11/2024   | 11/18/2024   | Task 1                 |
 | 5           | Write PPT presentation                                     | Harvey, Xinyang, Nolan| 11/19/2024   | 11/25/2024   | Tasks 1, 2, 3, 4       |
 

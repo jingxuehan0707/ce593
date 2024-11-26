@@ -1,0 +1,440 @@
+{
+    "layers": [
+        {
+            "id": 0,
+            "popupInfo": {
+                "popupElements": [
+                    {
+                        "type": "fields",
+                        "description": "",
+                        "fieldInfos": [
+                            {
+                                "fieldName": "FID",
+                                "isEditable": false,
+                                "label": "FID",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "zone_id",
+                                "format": {
+                                    "digitSeparator": false,
+                                    "places": 0
+                                },
+                                "isEditable": true,
+                                "label": "Zone ID",
+                                "visible": true
+                            },
+                            {
+                                "fieldName": "speed",
+                                "format": {
+                                    "digitSeparator": true,
+                                    "places": 2
+                                },
+                                "isEditable": true,
+                                "label": "Readl Time Speed",
+                                "visible": true
+                            }
+                        ],
+                        "title": ""
+                    }
+                ],
+                "fieldInfos": [
+                    {
+                        "fieldName": "FID",
+                        "isEditable": false,
+                        "label": "FID",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "bearing",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "bearing",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "default_sp",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "default_sp",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "detector_t",
+                        "isEditable": true,
+                        "label": "detector_t",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "direction",
+                        "isEditable": true,
+                        "label": "direction",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "display_na",
+                        "isEditable": true,
+                        "label": "display_na",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "interval",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "interval",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "lane_type",
+                        "isEditable": true,
+                        "label": "lane_type",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "latitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "latitude",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "length",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "length",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "location_d",
+                        "isEditable": true,
+                        "label": "location_d",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "longitude",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "longitude",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "organizati",
+                        "isEditable": true,
+                        "label": "organizati",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "speed",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "Readl Time Speed",
+                        "visible": true
+                    },
+                    {
+                        "fieldName": "road",
+                        "isEditable": true,
+                        "label": "road",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "rtmc",
+                        "format": {
+                            "digitSeparator": true,
+                            "places": 2
+                        },
+                        "isEditable": true,
+                        "label": "rtmc",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "state",
+                        "isEditable": true,
+                        "label": "state",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "timezone",
+                        "isEditable": true,
+                        "label": "timezone",
+                        "visible": false
+                    },
+                    {
+                        "fieldName": "zone_id",
+                        "format": {
+                            "digitSeparator": false,
+                            "places": 0
+                        },
+                        "isEditable": true,
+                        "label": "Zone ID",
+                        "visible": true
+                    }
+                ],
+                "title": "Inventory_SR91"
+            },
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "authoringInfo": {
+                            "classificationMethod": "esriClassifyManual",
+                            "type": "classedColor"
+                        },
+                        "type": "classBreaks",
+                        "visualVariables": [
+                            {
+                                "type": "sizeInfo",
+                                "valueExpression": "$view.scale",
+                                "stops": [
+                                    {
+                                        "size": 14.687835913513906,
+                                        "value": 2256.994353
+                                    },
+                                    {
+                                        "size": 11.750268730811129,
+                                        "value": 18055.954822
+                                    },
+                                    {
+                                        "size": 5.8751343654055646,
+                                        "value": 144447.638572
+                                    },
+                                    {
+                                        "size": 2.9375671827027823,
+                                        "value": 1155581.108577
+                                    }
+                                ]
+                            }
+                        ],
+                        "classBreakInfos": [
+                            {
+                                "label": "0 - 35",
+                                "classMaxValue": 35,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        222,
+                                        53,
+                                        47,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            },
+                            {
+                                "label": ">  35 - 40",
+                                "classMaxValue": 40,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        252,
+                                        102,
+                                        0,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            },
+                            {
+                                "label": ">  40 - 45",
+                                "classMaxValue": 45,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        251,
+                                        153,
+                                        0,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            },
+                            {
+                                "label": ">  45 - 50",
+                                "classMaxValue": 50,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        255,
+                                        205,
+                                        0,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            },
+                            {
+                                "label": ">  50 - 55",
+                                "classMaxValue": 55,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        254,
+                                        254,
+                                        7,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            },
+                            {
+                                "label": ">  55 - 60",
+                                "classMaxValue": 60,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        136,
+                                        179,
+                                        54,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            },
+                            {
+                                "label": "> 60 - 80",
+                                "classMaxValue": 80,
+                                "symbol": {
+                                    "type": "esriSMS",
+                                    "color": [
+                                        3,
+                                        155,
+                                        1,
+                                        255
+                                    ],
+                                    "angle": 0,
+                                    "xoffset": 0,
+                                    "yoffset": 0,
+                                    "size": 4.62,
+                                    "style": "esriSMSSquare",
+                                    "outline": {
+                                        "type": "esriSLS",
+                                        "color": [
+                                            153,
+                                            153,
+                                            153,
+                                            64
+                                        ],
+                                        "width": 0.375,
+                                        "style": "esriSLSSolid"
+                                    }
+                                }
+                            }
+                        ],
+                        "field": "speed",
+                        "minValue": 0
+                    }
+                }
+            }
+        }
+    ],
+    "tables": []
+}

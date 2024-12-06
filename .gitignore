@@ -168,3 +168,5 @@ cython_debug/
 ~$*
 # Word File
 ~$*.doc*
+# gis folder
+gis/
